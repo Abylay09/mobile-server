@@ -10,12 +10,11 @@ require("dotenv").config()
 const database = {
     connectionLimit : 5,
     host: "eu-cdbr-west-03.cleardb.net",
-    user: "b8d604b2ceecc7",
-    database: "f01df002",
-    password: "heroku_af7788d9651187b"
+    user: "b7c0da7e1552be",
+    database: "heroku_a9670a7361fd7b6",
+    password: "c5df94d4"
 }
 
 
 module.exports = database;
-
-// mysql://b8d604b2ceecc7:f01df002@eu-cdbr-west-03.cleardb.net/heroku_af7788d9651187b?reconnect=true
+//mysql://b7c0da7e1552be:c5df94d4@eu-cdbr-west-03.cleardb.net/heroku_a9670a7361fd7b6?reconnect=true
