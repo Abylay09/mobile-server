@@ -13,7 +13,3 @@ function checkToken(req, res, next) {
         res.json({ message: "Нет токена" })
     }
 }
-
-module.exports = {
-    checkToken : checkToken
-}
